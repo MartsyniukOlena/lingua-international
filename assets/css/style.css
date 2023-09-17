@@ -109,34 +109,15 @@ header a {
 }
 
 #cover-text {
-    background-color: rgba(0, 123, 167, .7);
-    font-size: 90%;
-    color: #ffffff;
-    position: absolute;
-    width: 100%;
-    height: 150px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5rem;
-    bottom: 250px;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#cover-text h2 {
-    font-size: 24px;
-    font-weight: bold;
+    background-color: rgba(0, 123, 167, .9);
     color: #F59432;
-    margin: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    padding: 10px 0 0 0;
 }
 
-/* Style for the p element */
-#cover-text p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 10px 0;
-}
 
 /* Style the "why" section */
 #whys h3 {
@@ -154,6 +135,27 @@ header a {
     border: 1px solid #00273D;
     text-align: center;
     background-color: #D0E8E2;
+}
+
+/* Style for the icons */
+.p-main i {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #007BA7;
+}
+
+/* Style for the headings */
+.p-main h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #00273D;
+    text-align: center;
+}
+
+/* Style for the paragraphs */
+.p-main p {
+    font-size: 20px;
+    color: #00273D;
 }
 
 /* Footer */
@@ -217,3 +219,92 @@ footer {
 .footer-schedule table {
     width: 100%;
 }
+
+
+
+@media screen and (min-width: 576px) {
+    
+
+ nav ul {
+     font-size: 120%;
+     /*add space between logo and navigation*/
+     margin-top: 10px;
+     margin-right: 80px;
+ }
+
+  #logo {
+      /*reduce font size for the school name*/
+      font-size: 200%;
+    margin-right: 60px;
+  }
+
+  #cover-text {
+      font-size: 15px;
+      padding: 15px 0 0 0;
+      margin-top: 0;
+  }
+}
+
+/*Media query:768px and up*/
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    header i {
+        /*remove margin from the icon*/
+        margin-left: 0;
+    }
+
+    nav ul {
+        font-size: 120%;
+        /*add space between logo and navigation*/
+        margin-top: 10px;
+    }
+
+    #logo {
+        /*reduce font size for the school name*/
+        font-size: 200%;
+    }
+    #cover-text {
+    font-size: 13px;
+    padding: 15px 0 0 0;
+    margin-top: 30px;
+}
+   
+}
+
+/*Large devices (laptops and desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu li a:hover {
+        background-color: #00273D;
+        padding: 0;
+    }
+
+    nav ul {
+        font-size: 150%;
+        padding: 0;
+        margin-right: 20px;
+    }
+
+    #logo {
+        font-size: 250%;
+    }
+}
+
+/*Large devices ( 1200px and up)*/
+@media screen and (max-width: 1200px) {
+    #cover-text {
+        width: 100%;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #cover-text {
+        font-size: 9px;
+    }
+}
+
