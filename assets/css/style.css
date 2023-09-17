@@ -38,3 +38,16 @@ header i {
     position: fixed;
     font-size: 1.5rem;
 }
+
+/* Navigation menu */
+nav ul {
+    font-size: 120%;
+    font-family: 'Cormorant Garamond', serif;
+    list-style-type: none;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
