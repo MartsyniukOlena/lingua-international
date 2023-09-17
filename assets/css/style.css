@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+/*General styles*/
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #00273D;
+    font-family: 'Cormorant Garamond', serif;
+}
+
 /* Header */
 
 header {
