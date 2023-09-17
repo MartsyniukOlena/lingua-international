@@ -118,9 +118,37 @@ header a {
     padding: 10px 0 0 0;
 }
 
+/* Style the about section */
+#about {
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 30px 50px;
+}
+
+/* Styling for the main paragraph */
+#about #main {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the mission paragraph */
+#about .mission {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for the call-to-action paragraph */
+#about .call-to-action {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    color: #F59432;
+}
 
 /* Style the "why" section */
-#whys h3 {
+#whys h3,
+#about h3 {
     text-align: center;
     font-size: 30px;
     color: #00273D;
@@ -134,11 +162,13 @@ header a {
     padding: 20px;
     border: 1px solid #00273D;
     text-align: center;
-    background-color: #D0E8E2;
+    background-color: #ffffff;
+
 }
 
 /* Style for the icons */
-.p-main i {
+.p-main i,
+#about i {
     font-size: 30px;
     margin-bottom: 10px;
     color: #007BA7;
@@ -153,10 +183,19 @@ header a {
 }
 
 /* Style for the paragraphs */
-.p-main p {
+.p-main p,
+#about p {
     font-size: 20px;
     color: #00273D;
 }
+
+/* Style speaking club section */
+#speaking-club
+{
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* Footer */
 
