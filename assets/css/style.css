@@ -151,3 +151,11 @@ footer {
     color: #007BA7;
     text-decoration: none;
 }
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+.footer-schedule table {
+    width: 100%;
+}
