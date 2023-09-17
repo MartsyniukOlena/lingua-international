@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -18,4 +20,14 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 15;
+}
+
+/* Logo*/
+#logo {
+    letter-spacing: 0.1rem;
+    font-size: 200%;
+    font-family: 'Cormorant Garamond', serif;
+    margin-left: 10px;
+    color: #007BA7;
+    padding: 0 10px;
 }
