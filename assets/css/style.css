@@ -108,3 +108,27 @@ footer {
     margin: 0 auto;
     width: 90%;
 }
+
+.container h3 {
+    margin-bottom: 10px;
+}
+
+#social-media h3 {
+    margin-bottom: 40px;
+}
+
+#social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-media ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#social-media a {
+    color: #007BA7;
+    font-size: 24px;
+    text-decoration: none;
+}
