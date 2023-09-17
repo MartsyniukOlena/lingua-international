@@ -122,23 +122,20 @@ header a {
 #about {
     background-color: #ffffff;
     text-align: center;
-    margin: 0 30px 50px;
+    margin: 0 90px 50px;
 }
 
-/* Styling for the main paragraph */
 #about #main {
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-/* Styling for the mission paragraph */
 #about .mission {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-/* Styling for the call-to-action paragraph */
 #about .call-to-action {
     font-size: 20px;
     font-weight: bold;
@@ -148,7 +145,8 @@ header a {
 
 /* Style the "why" section */
 #whys h3,
-#about h3 {
+#about h3,
+#speaking-club h3 {
     text-align: center;
     font-size: 30px;
     color: #00273D;
@@ -190,13 +188,32 @@ header a {
 }
 
 /* Style speaking club section */
-#speaking-club
+
+
+#speaking-club {
+    display: block;
+}
+
+#speaking-club-section
 {
     display: flex;
     flex-direction: row;
+    margin: 70px 70px 40px;
 }
 
+#sc-img
+{
+   vertical-align: 50px;
+   padding-right: 60px;
+}
 
+#speaking-club p
+{ 
+    padding: 0 20px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 70px;
+}
 /* Footer */
 
 footer {
