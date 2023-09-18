@@ -218,16 +218,17 @@ main {
 
 #speaking-club-section
 {
+    width: 90%;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
-    height: 400px;
     align-items: center;
     justify-content: center;
 }
 
 #speaking-club p
 { 
-    font-size: 24px;
+    font-size: 200%;
     padding: 30px;
     color: #00273D;
     text-align: center;
@@ -235,7 +236,10 @@ main {
 
 #speaking-club h3
 {
-color: #F59432;
+    font-size: 280%;
+    color: #00273D;
+    margin: 10px 0;
+    text-align: center;
 }
 
 
