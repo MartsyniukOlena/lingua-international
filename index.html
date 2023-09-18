@@ -41,11 +41,10 @@
             <section id="about">
                 <h3><i class="fa-solid fa-building-columns"></i> About us</h3>
                 <div id="about-text">
-                    <p id="main">At Lingua International, we are dedicated to providing top-quality English language education to students of all backgrounds and skill levels. We offer English language courses designed to cater to a wide range of proficiency levels. We are committed to making your English language learning experience enjoyable, rewarding,  and effective.</p>
-                        <br>
+                    <p id="main">At Lingua International, we are dedicated to providing top-quality English language education to students of all backgrounds and skill levels.<br>We offer English language courses designed to cater to a wide range of proficiency levels.<br>We are committed to making your English language learning experience enjoyable, rewarding,  and effective.</p>
 <p class="mission">Our mission is to inspire every student to learn, grow, and thrive in the English language. </p>
                         <br>
-                       <p class="call-to-action">Join us today to master one of the world's most widely spoken languages. Together, we will inspire you to learn and grow in the English language.
+                       <p class="call-to-action">Join us today to master one of the world's most widely spoken languages.<br>Together, we will inspire you to learn and grow in the English language.
                     </p>
                 </div>
             </section>
@@ -82,16 +81,48 @@
                 <div id="speaking-club">
                 <h3>Speaking Club</h3>
                     <p>We believe that practice makes perfect. That's why we invite all our students, as
-                        well as everyone who is willing to attend, to join our exclusive Speaking Club. This club provides a
-                        supportive and interactive environment where participants can engage in meaningful conversations, hone their
-                        speaking skills, and connect with fellow language enthusiasts. Our Speaking Club sessions are not only educational but also a lot of fun. It's an excellent opportunity to
-                        put your language skills to use, meet people from diverse backgrounds, and make new friends – all while
+                        well as everyone who is willing to attend, to join our exclusive Speaking Club.<br>This club provides a
+                        supportive and interactive environment where participants can engage in meaningful conversations,<br>hone their
+                        speaking skills, and connect with fellow language enthusiasts.<br>Our Speaking Club sessions are not only educational but also a lot of fun. It's an excellent opportunity to
+                        put your language skills to use,<br>meet people from diverse backgrounds, and make new friends – all while
                         improving your English fluency.</p>
                     <form action="">
                     <input type="submit">
                     </form>
                 </div>
             </section>
+            <div class="slideshow-container">
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="assets/images/speaking-club-meeting.jpg" style="width:100%">
+                    <div class="text"></div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="assets/images/speaking-club-discussion.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="assets/images/speaking-club-2.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+            
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
     </main>
     <!-- Footer -->
     <footer>
@@ -159,5 +190,34 @@
     </footer>
     <!-- Font Awesome kit -->
     <script src="https://kit.fontawesome.com/2608d92977.js" crossorigin="anonymous"></script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
 </html>
