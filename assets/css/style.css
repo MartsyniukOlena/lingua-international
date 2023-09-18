@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 /*General styles*/
 
 body {
@@ -287,7 +288,7 @@ main {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #00273D;
 }
 
 /* Caption text */
@@ -323,16 +324,68 @@ main {
 }
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #00273D;
 }
 
 /*Courses page*/
 #levels
 {
-    margin-top: 47px;
-    width: 90%;
+    margin: 50px;
 }
 
+/* Style the heading for the section */
+#levels h2 {
+    font-size: 200%;
+    text-align: center;
+    padding: 20px;
+    color: #00273D;
+}
+
+#levels h3 {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #00273D;
+    background-color: #007BA7;
+}
+
+/* Style the two-levels container */
+.two-levels {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#beginner-level,
+#interm-level {
+    background-color: #FFFFFF;
+    border: 1px solid #007BA7;
+    padding: 80px;
+    margin: 10px;
+    width: 48%;
+}
+
+#beginner-level h3,
+#interm-level h3 {
+    font-size: 200%;
+    color: #00273D;
+}
+
+/* Style the course descriptions */
+#beginner-level p,
+#interm-level p {
+    font-size: 150%;
+    line-height: 1.5;
+    color: #00273D;
+    text-align: center;
+}
+
+#levels hr
+{
+    margin: 10px 0;
+    color: #007BA7;
+}
 
 
 /* Footer */
