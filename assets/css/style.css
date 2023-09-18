@@ -325,6 +325,16 @@ main {
 .dot:hover {
     background-color: #717171;
 }
+
+/*Courses page*/
+#levels
+{
+    margin-top: 47px;
+    width: 90%;
+}
+
+
+
 /* Footer */
 
 footer {
