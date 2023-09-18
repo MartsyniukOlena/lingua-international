@@ -120,24 +120,33 @@ header a {
 
 /* Style the about section */
 #about {
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
     text-align: center;
-    margin: 0 90px 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#about h3 {
+    color: #F59432;
 }
 
 #about #main {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 20px;
+    padding: 0 40px;
 }
 
 #about .mission {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #about .call-to-action {
-    font-size: 20px;
+    font-size: 29px;
     font-weight: bold;
     font-style: italic;
     color: #F59432;
@@ -155,10 +164,24 @@ header a {
     text-transform: uppercase;
 }
 
+#whys
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#whys h3
+{
+    text-align: center;
+}
+
 .p-main {
     margin: 10px 0;
     padding: 20px;
-    border: 1px solid #00273D;
+    height: 250px;
     text-align: center;
     background-color: #ffffff;
 
@@ -189,30 +212,28 @@ header a {
 
 /* Style speaking club section */
 
-
-#speaking-club {
-    display: block;
-}
-
 #speaking-club-section
 {
     display: flex;
-    flex-direction: row;
-    margin: 70px 70px 40px;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-#sc-img
-{
-   vertical-align: 50px;
-   padding-right: 60px;
-}
 
 #speaking-club p
 { 
-    padding: 0 20px;
-    font-size: 28px;
+    font-size: 24px;
+    padding: 30px;
+    color: #00273D;
     text-align: center;
-    margin-left: 70px;
+}
+
+#speaking-club h3
+{
+color: #F59432;
 }
 /* Footer */
 
