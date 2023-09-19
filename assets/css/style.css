@@ -61,6 +61,12 @@ header i {
 }
 
 /* Navigation menu */
+nav {
+    left: 0;
+    padding: 0 1rem;
+    top: 100%;
+}
+
 nav ul {
     font-size: 120%;
     list-style-type: none;
@@ -353,8 +359,8 @@ main {
 /* Style the two-levels container */
 .two-levels {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 #beginner-level,
@@ -387,7 +393,60 @@ main {
     color: #007BA7;
 }
 
+/*enroll page*/
+#enroll
+{
+    margin: 80px 80px 40px 80px;
+    background-color: #ffffff;
+        max-width: 70%;
+        padding: 40px;
+        box-shadow: 0 0 6px hsla(0, 0%, 0%, 0.2);
+}
 
+#enroll h2 {
+    text-align: center;
+}
+
+
+/* Style form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #00273D;
+    border-radius: 3px;
+    font-size: 100%;
+    
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #F59432;
+    color: #ffffff;
+    font-weight: bold;
+    border: #00273D;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #00273D;
+}
 /* Footer */
 
 footer {
