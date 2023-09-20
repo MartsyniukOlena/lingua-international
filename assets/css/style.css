@@ -36,7 +36,7 @@ header {
     margin: 0 auto;
     position: fixed;
     width: 100%;
-    border-bottom: 2px solid #007BA7;
+    border-bottom: 2px solid #00273D;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,10 +46,10 @@ header {
 /* Logo*/
 #logo {
     letter-spacing: 0.1rem;
-    font-size: 200%;
+    font-size: 180%;
     font-family: 'Cormorant Garamond', serif;
     margin-left: 0.5rem;
-    color: #007BA7;
+    color: #00273D;
     padding: 0 10px;
 }
 
@@ -110,7 +110,7 @@ header a {
     background-color: #00273D;
     background-image: url("../images/cover-image.jpg");
     width: 100%;
-    height: 900px;
+    height: 1010px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -140,44 +140,47 @@ main {
 
 /* Style the about section */
 #about {
-    width: 90%;
     margin: 20px auto;
     text-align: center;
 }
 
 #about h3 {
-    font-size: 280%;
+    font-size: 180%;
     color: #00273D;
+    margin: 10px;
 }
 
 #about #main {
-    font-size: 180%;
+    font-size: 150%;
     margin-bottom: 20px;
     padding: 0 40px;
+    margin: 10px;
 }
 
 #about .mission {
-    font-size: 160%;
+    font-size: 150%;
     font-weight: bold;
-    margin-bottom: 10px;
+    padding: 0 40px;
+    margin: 10px;
 }
 
 #about .call-to-action {
-    font-size: 200%;
+    font-size: 180%;
     font-weight: bold;
     font-style: italic;
     color: #F59432;
+    padding: 0 40px;
+    margin: 10px;
 }
 
 /* Style the "why" section */
 
 #whys {
-    width: 90%;
     margin: 20px auto;
 }
 
 #whys h3 {
-    font-size: 280%;
+    font-size: 180%;
     color: #00273D;
     margin: 10px 0;
     text-align: center;
@@ -187,8 +190,11 @@ main {
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+}
+
+#whys-5 p {
+    font-size: 150%;
 }
 
 .p-main {
@@ -201,14 +207,14 @@ main {
 /* Style for the icons */
 .p-main i,
 #about i {
-    font-size: 200%;
+    font-size: 150%;
     margin-bottom: 10px;
     color: #007BA7;
 }
 
 /* Style for the headings */
 .p-main h4 {
-    font-size: 180%;
+    font-size: 150%;
     margin-bottom: 10px;
     color: #00273D;
     text-align: center;
@@ -217,7 +223,7 @@ main {
 /* Style for the paragraphs */
 .p-main p,
 #about p {
-    font-size: 20px;
+    font-size: 150%;
     color: #00273D;
 }
 
@@ -235,7 +241,7 @@ main {
 
 #speaking-club p
 { 
-    font-size: 200%;
+    font-size: 150%;
     padding: 30px;
     color: #00273D;
     text-align: center;
@@ -243,7 +249,7 @@ main {
 
 #speaking-club h3
 {
-    font-size: 280%;
+    font-size: 180%;
     color: #00273D;
     margin: 10px 0;
     text-align: center;
@@ -473,11 +479,12 @@ input[type="submit"]:hover {
 /* Footer */
 
 footer {
+    
     background-color: #ffffff;
-    color: #007BA7;
+    color: #00273D;
     padding: 10px 0;
     font-size: 1rem;
-    border-top: 2px solid #007BA7;
+    border-top: 2px solid #00273D;
 }
 
 .container {
@@ -489,13 +496,6 @@ footer {
     width: 90%;
 }
 
-.container h3 {
-    margin-bottom: 10px;
-}
-
-#social-media h3 {
-    margin-bottom: 40px;
-}
 
 #social-media ul {
     list-style-type: none;
@@ -508,7 +508,7 @@ footer {
 }
 
 #social-media a {
-    color: #007BA7;
+    color: #00273D;
     font-size: 24px;
     text-decoration: none;
 }
@@ -520,7 +520,7 @@ footer {
 }
 
 .footer-navigation a {
-    color: #007BA7;
+    color: #00273D;
     text-decoration: none;
 }
 
@@ -532,22 +532,22 @@ footer {
     width: 100%;
 }
 
-
+/*Media query:576 and down*/
 @media screen and (min-width: 576px) {
  nav ul {
      font-size: 120%;
-     /*add space between logo and navigation*/
      margin-top: 10px;
-     margin-right: 80px;
+     margin-right: 20px;
  }
 
   #logo {
       /*reduce font size for the school name*/
-      font-size: 200%;
-    margin-right: 60px;
+      font-size: 180%;
+      margin-right: 20px;
   }
-  
 }
+
+
 
 /*Media query:768px and up*/
 @media screen and (max-width: 768px) {
@@ -560,18 +560,18 @@ footer {
     header i {
         /*remove margin from the icon*/
         margin-left: 0;
+        font-size: 100%;
     }
 
     nav ul {
         font-size: 120%;
-        /*add space between logo and navigation*/
         margin-top: 10px;
     }
 
     #logo {
-        /*reduce font size for the school name*/
-        font-size: 200%;
+        font-size: 150%;
     }
+
 }
 
 /*Large devices (laptops and desktops, 992px and up)*/
@@ -584,16 +584,24 @@ footer {
     nav ul {
         font-size: 150%;
         padding: 0;
-        margin-right: 20px;
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 180%;
     }
-
 }
 
-/*Large devices ( 1200px and up)*/
-@media screen and (max-width: 1200px) {
-    
-}
+/* Responsive styles for screens 992px and down */
+@media screen and (max-width: 992px) {
+         #whys-5 {
+             flex-direction: column;
+         }
+        }
+
+/* Responsive styles for screens 1200 px and down */
+@media (max-width: 1200px) {
+           #whys-5
+           {
+            flex-direction: column;
+           }
+        }
