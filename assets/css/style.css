@@ -88,8 +88,8 @@ nav ul {
 
 #menu li a:hover {
     background-color: #00273D;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 2px;
+    border-radius: 1px;
 }
 
 .active {
