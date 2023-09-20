@@ -341,18 +341,12 @@ main {
 
 /*Courses page*/
 
+
 #levels
 {
-    margin: 47px 15px 15px;
+    margin: 107px 15px 15px;
 }
 /* Style the heading for the section */
-#levels h2 {
-    font-size: 250%;
-    text-align: center;
-    padding: 20px;
-    margin: 47px 15px 15px;
-    color: #00273D;
-}
 
 #levels h3 {
     font-size: 180%;
@@ -374,7 +368,7 @@ main {
 
 #beginner-level,
 #interm-level {
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #007BA7;
     padding: 20px;
     margin: 10px;
@@ -402,20 +396,31 @@ main {
 }
 
 /*enroll page*/
+#enroll-page
+{
+    background-image: url("../images/background.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
 #enroll
 {
         margin-top: 75px;
         margin-bottom: 30px;
-        background-color: #ffffff;
         margin-right: auto;
         margin-left: auto;
         padding: 50px;
-        box-shadow: 0 0 6px hsla(0, 0%, 0%, 0.2);
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 6px hsla(0, 0%, 0%, 0.3);
 }
 
 #enroll h2 {
     text-align: center;
-    font-size: 250%;
+    font-size: auto;
+    padding-bottom: 20px;
 }
 
 
@@ -487,8 +492,7 @@ footer {
     
     background-color: #ffffff;
     color: #00273D;
-    padding: 10px 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-top: 2px solid #00273D;
 }
 
@@ -497,6 +501,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
     margin: 0 auto;
     width: 90%;
 }
@@ -504,7 +509,7 @@ footer {
 
 #social-media ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
 }
 
 #social-media ul li {
