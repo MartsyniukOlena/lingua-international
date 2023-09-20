@@ -340,21 +340,22 @@ main {
 }
 
 /*Courses page*/
+
 #levels
 {
-    margin: 50px;
+    margin: 47px 15px 15px;
 }
-
 /* Style the heading for the section */
 #levels h2 {
-    font-size: 200%;
+    font-size: 250%;
     text-align: center;
     padding: 20px;
+    margin: 47px 15px 15px;
     color: #00273D;
 }
 
 #levels h3 {
-    font-size: 150%;
+    font-size: 180%;
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
@@ -363,41 +364,41 @@ main {
 }
 
 /* Style the two-levels container */
-.two-levels {
+#two-levels {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    padding: 10px;
+    margin: 10px;
+    
 }
 
 #beginner-level,
 #interm-level {
     background-color: #FFFFFF;
     border: 1px solid #007BA7;
-    padding: 80px;
+    padding: 20px;
     margin: 10px;
-    width: 48%;
 }
 
-#beginner-level h3,
-#interm-level h3 {
+#two-levels h3 {
     font-size: 200%;
     color: #00273D;
 }
 
 /* Style the course descriptions */
-#beginner-level p,
-#interm-level p {
+#two-levels p {
     font-size: 150%;
     line-height: 1.5;
     color: #00273D;
     text-align: center;
+    padding: 15px;
+    margin: 10px;
 }
 
 #levels hr
 {
-    margin: 10px 0;
-    color: #007BA7;
+    margin: 20px 0;
+    color: #00273D;
 }
 
 /*enroll page*/
@@ -412,6 +413,7 @@ main {
 
 #enroll h2 {
     text-align: center;
+    font-size: 200%;
 }
 
 
@@ -547,8 +549,6 @@ footer {
   }
 }
 
-
-
 /*Media query:768px and up*/
 @media screen and (max-width: 768px) {
     header {
@@ -596,6 +596,19 @@ footer {
          #whys-5 {
              flex-direction: column;
          }
+
+                   #two-levels {
+                       flex-direction: column;
+                   }
+        
+                   #levels h2 {
+                       font-size: 180%;
+                   }
+        
+                   #levels h3 {
+                       font-size: 150%;
+                   }
+
         }
 
 /* Responsive styles for screens 1200 px and down */
@@ -604,4 +617,8 @@ footer {
            {
             flex-direction: column;
            }
-        }
+
+        #two-levels {
+        flex-direction: column;
+                   }
+}
