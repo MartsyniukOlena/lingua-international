@@ -453,7 +453,7 @@ input[type="radio"] {
 /* Style the submit button */
 input[type="submit"]
  {
-    background-color: #F59432;
+    background-color: #00273D;
     color: #ffffff;
     font-weight: bold;
     font-size: 100%;
@@ -483,16 +483,15 @@ input[type="submit"]
 
 
 .enroll-button:hover {
-    background-color: #00273D;
+    background-color: #007BA7;
 }
 
 input[type="submit"]:hover {
-    background-color: #00273D;
+    background-color: #007BA7;
 }
 /* Footer */
 
 footer {
-    
     background-color: #ffffff;
     color: #00273D;
     font-size: 1.3rem;
@@ -506,7 +505,7 @@ footer {
     align-items: center;
     padding: 20px;
     margin: 0 auto;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -526,23 +525,23 @@ footer {
     text-decoration: none;
 }
 
-.footer-navigation ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-navigation a {
-    color: #00273D;
-    text-decoration: none;
-}
-
-.footer-navigation a:hover {
-    text-decoration: underline;
-}
-
 .footer-schedule table {
     width: 100%;
+}
+
+.container .footer-schedule
+{
+    padding: 10px;
+}
+
+.container .footer-contacts
+{
+        padding: 10px;
+}
+
+.container .footer-text
+{
+        padding: 10px;
 }
 
 /*Media query:576 and down*/
