@@ -106,9 +106,9 @@ header a {
 }
 
 /*Cover Image*/
-#cover-image {
+#hero {
     background-color: #00273D;
-    background-image: url("../images/cover-image.jpg");
+    background-image: url("../images/hero.webp");
     width: 100%;
     height: 1010px;
     background-repeat: no-repeat;
@@ -153,14 +153,14 @@ main {
 #about #main {
     font-size: 150%;
     margin-bottom: 20px;
-    padding: 0 40px;
+    padding: 0 10px;
     margin: 10px;
 }
 
 #about .mission {
     font-size: 150%;
     font-weight: bold;
-    padding: 0 40px;
+    padding: 0 10px;
     margin: 10px;
 }
 
@@ -169,7 +169,7 @@ main {
     font-weight: bold;
     font-style: italic;
     color: #F59432;
-    padding: 0 40px;
+    padding: 0 10px;
     margin: 10px;
 }
 
@@ -242,7 +242,7 @@ main {
 #speaking-club p
 { 
     font-size: 150%;
-    padding: 30px;
+    padding: 10px;
     color: #00273D;
     text-align: center;
 }
@@ -340,8 +340,6 @@ main {
 }
 
 /*Courses page*/
-
-
 #levels
 {
     margin: 107px 15px 15px;
@@ -370,7 +368,7 @@ main {
 #interm-level {
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #007BA7;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
 }
 
@@ -385,8 +383,8 @@ main {
     line-height: 1.5;
     color: #00273D;
     text-align: center;
-    padding: 15px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 
 #levels hr
@@ -398,7 +396,7 @@ main {
 /*enroll page*/
 #enroll-page
 {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/background-enroll.webp");
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
