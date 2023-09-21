@@ -168,7 +168,7 @@ main {
     font-size: 180%;
     font-weight: bold;
     font-style: italic;
-    color: #F59432;
+    color: #00273D;
     padding: 0 10px;
     margin: 10px;
 }
@@ -466,7 +466,7 @@ input[type="submit"]
 
 /*style for button*/
 .enroll-button {
-    background-color: #F59432;
+    background-color: #00273D;
     color: #ffffff;
     font-weight: bold;
     font-size: 26px;
