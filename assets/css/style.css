@@ -86,14 +86,12 @@ nav ul {
 
 #menu li a:hover {
     background-color: #007BA7;
-}
-
-.active {
-    background-color: #007BA7;
+    color: #ffffff;
 }
 
 header a {
     text-decoration: none;
+    color: #007BA7;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -351,8 +349,8 @@ main {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #007BA7;
     color: #ffffff;
+    background-color: #007BA7;
 }
 
 /* Style the two-levels container */
@@ -371,7 +369,6 @@ main {
     padding: 10px;
     margin: 10px;
 }
-
 
 /* Style the course descriptions */
 #two-levels p {
@@ -581,10 +578,6 @@ footer {
 
 /*Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-    #menu li a:hover {
-        background-color: #007BA7;
-        padding: 0;
-    }
 
     nav ul {
         font-size: 150%;
