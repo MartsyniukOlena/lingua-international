@@ -121,6 +121,7 @@ header a {
     text-align: center;
     letter-spacing: 0.2rem;
     padding: 10px 0 0 0;
+    line-height: 1.5;
 }
 
 /*Main Content*/
@@ -348,7 +349,7 @@ main {
 /*Courses page*/
 #levels
 {
-    margin: 90px 15px 15px;
+    margin: 50px 15px 15px;
 }
 
 /* Style the two-levels container */
@@ -357,8 +358,8 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin: 10px;
-    
 }
 
 .main-courses {
@@ -366,12 +367,20 @@ main {
     border: 1px solid #007BA7;
     padding: 10px;
     margin: 10px;
+    min-width: 50%;
+    min-height: 50%;
 }
+
+#business-eng
+{
+    align-self: stretch;
+}
+
 
 /* Style the heading for the section */
 
 #levels h3 {
-    font-size: 180%;
+    font-size: 150%;
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
@@ -381,17 +390,17 @@ main {
 
 /* Style the course descriptions */
 #levels p {
-    font-size: 150%;
+    font-size: 130%;
     line-height: 1.5;
     color: #00273D;
     text-align: center;
-    padding: 10px;
-    margin: 5px;
+    padding: 2px;
+    margin: 2px;
 }
 
 #levels hr
 {
-    margin: 20px 0;
+    margin: 10px 0;
     color: #00273D;
 }
 
@@ -492,6 +501,7 @@ footer {
     color: #00273D;
     font-size: 1.3rem;
     border-top: 2px solid #00273D;
+    display: block;
 }
 
 .container {
@@ -512,7 +522,7 @@ footer {
 
 #social-media ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 #social-media a {
@@ -606,19 +616,17 @@ footer {
              flex-direction: column;
          }
 
-                   #two-levels,
-                   #pro-levels {
-                       flex-direction: column;
-                   }
-        
-                   #levels h2 {
-                       font-size: 180%;
-                   }
-        
-                   #levels h3 {
-                       font-size: 150%;
-                   }
+        #two-levels,
+        #pro-levels {
+             flex-direction: column;
+         }
 
+        
+        #levels h3 {
+            font-size: 120%;
+        }
+
+            
         }
 
 /* Responsive styles for screens 1200 px and down */
