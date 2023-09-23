@@ -165,10 +165,30 @@ main {
     margin: 10px;
 }
 
+#about i {
+    font-size: 150%;
+    margin-bottom: 10px;
+    color: #007BA7;
+}
+
+#about p {
+    font-size: 150%;
+    color: #00273D;
+}
+
 /* Style the "why" section */
 
 #whys {
     margin: 20px auto;
+    width: 90%;
+}
+
+#whys-3,
+#whys-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #whys h3 {
@@ -178,15 +198,11 @@ main {
     text-align: center;
 }
 
-#whys-5
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#whys-5 p {
+.p-main h4 {
     font-size: 150%;
+    margin-bottom: 10px;
+    color: #00273D;
+    text-align: center;
 }
 
 .p-main {
@@ -196,25 +212,13 @@ main {
     margin-bottom: 20px;
 }
 
-/* Style for the icons */
-.p-main i,
-#about i {
+.p-main i {
     font-size: 150%;
     margin-bottom: 10px;
     color: #007BA7;
 }
 
-/* Style for the headings */
-.p-main h4 {
-    font-size: 150%;
-    margin-bottom: 10px;
-    color: #00273D;
-    text-align: center;
-}
-
-/* Style for the paragraphs */
-.p-main p,
-#about p {
+.p-main p {
     font-size: 150%;
     color: #00273D;
 }
@@ -592,7 +596,8 @@ footer {
 
 /* Responsive styles for screens 992px and down */
 @media screen and (max-width: 992px) {
-         #whys-5 {
+        #whys-3,
+        #whys-2 {
              flex-direction: column;
          }
 
@@ -612,7 +617,8 @@ footer {
 
 /* Responsive styles for screens 1200 px and down */
 @media (max-width: 1200px) {
-           #whys-5
+        #whys-3,
+        #whys-2
            {
             flex-direction: column;
            }
