@@ -72,7 +72,6 @@ nav ul {
     list-style-type: none;
     letter-spacing: 0.1rem;
     font-weight: 700;
-    padding: 5px;
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -80,29 +79,24 @@ nav ul {
 
 #menu li a {
     text-decoration: none;
-    color: #007BA7;
-    padding: 2px;
+    color: #00273D;
     margin-left: 10px;
 
 }
 
 #menu li a:hover {
-    background-color: #00273D;
-    padding: 2px;
-    border-radius: 1px;
+    background-color: #007BA7;
 }
 
 .active {
-    background-color: #00273D;
-    padding: 3px;
+    background-color: #007BA7;
 }
 
 header a {
     text-decoration: none;
-    color: #00273D;
     margin: 0;
     padding: 0;
-    border-radius: 5px;
+    text-transform: uppercase;
 }
 
 /*Cover Image*/
@@ -340,7 +334,7 @@ main {
     display: inline-block;
     transition: background-color 0.6s ease;
 }
-.active,
+
 .dot:hover {
     background-color: #00273D;
 }
@@ -357,8 +351,8 @@ main {
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
-    color: #00273D;
     background-color: #007BA7;
+    color: #ffffff;
 }
 
 /* Style the two-levels container */
@@ -378,10 +372,6 @@ main {
     margin: 10px;
 }
 
-#two-levels h3 {
-    font-size: 200%;
-    color: #00273D;
-}
 
 /* Style the course descriptions */
 #two-levels p {
@@ -592,7 +582,7 @@ footer {
 /*Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
     #menu li a:hover {
-        background-color: #00273D;
+        background-color: #007BA7;
         padding: 0;
     }
 
