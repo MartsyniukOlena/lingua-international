@@ -511,7 +511,7 @@ footer {
     align-items: center;
     padding: 20px;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -563,6 +563,10 @@ footer {
       font-size: 180%;
       margin-right: 20px;
   }
+
+  .container {
+      flex-direction: column;
+}
 }
 
 /*Media query:768px and up*/
