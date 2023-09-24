@@ -538,6 +538,7 @@ footer {
 .container .footer-schedule
 {
     padding: 10px;
+    text-align: left;
 }
 
 .container .footer-contacts
@@ -545,9 +546,14 @@ footer {
         padding: 10px;
 }
 
-.container .footer-text
+.container .footer-copyright
 {
         padding: 10px;
+}
+
+.social-media-copyright
+{
+    display: block;
 }
 
 /*Media query:576 and down*/
@@ -564,9 +570,6 @@ footer {
       margin-right: 20px;
   }
 
-  .container {
-      flex-direction: column;
-}
 }
 
 /*Media query:768px and up*/
@@ -629,8 +632,10 @@ footer {
         #levels h3 {
             font-size: 120%;
         }
-
-            
+.container {
+    flex-direction: column;
+    align-items: baseline;
+}
         }
 
 /* Responsive styles for screens 1200 px and down */
