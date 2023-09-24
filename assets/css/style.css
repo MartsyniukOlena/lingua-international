@@ -134,9 +134,11 @@ main {
 
 /* Style the about section */
 #about {
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
     line-height: 1.5;
+    box-shadow: 0 5px 10px #f2f2f2;
+    width: 100%;
 }
 
 #about h3 {
@@ -182,9 +184,10 @@ main {
 /* Style the "why" section */
 
 #whys {
-    margin: 20px auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
     line-height: 1.5;
+    box-shadow: 0 5px 10px #f2f2f2;
 }
 
 #whys-3,
@@ -331,28 +334,32 @@ main {
 }
 
 /*Courses page*/
+
+#courses-page
+{
+    background-image: url("../images/background-courses.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 #levels
 {
-    margin: 60px 15px 5px;
-}
-
-
-#two-levels,
-#pro-levels {
+    margin: 120px 15px 5px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+        flex-direction: row;
+        align-items: center;
+        justify-content: baseline;
 }
+
 
 .main-courses {
-    flex: calc(30% - 20px);
     margin-right: 20px;
     padding: 20px;
     margin: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #00273D;
-    box-shadow: 10px 5px 5px #00273D;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+
 }
    
 #levels h3 {
@@ -361,7 +368,7 @@ main {
     margin-bottom: 20px;
     padding: 10px;
     color: #ffffff;
-    background-color: #007BA7;
+    background-color: rgba(0, 39, 61, 0.7);
 }
 
 /* Style the course descriptions */
@@ -574,7 +581,6 @@ footer {
 
         #enroll {
             max-width: 80%;
-            /* Adjust the max-width for smaller screens */
             margin: 120px auto 20px;
         }
 }
@@ -595,16 +601,15 @@ footer {
 
 /* Responsive styles for screens 992px and down */
 @media screen and (max-width: 992px) {
-        #whys-3,
-        #whys-2 {
+        #levels {
              flex-direction: column;
+             margin-top: 60px;
          }
 
-        #two-levels,
-        #pro-levels {
-             flex-direction: column;
-         }
-
+                 #whys-3,
+                 #whys-2 {
+                     flex-direction: column;
+                 }
         
         #levels h3 {
             font-size: 120%;
@@ -617,14 +622,14 @@ footer {
 
 /* Responsive styles for screens 1200 px and down */
 @media (max-width: 1200px) {
-        #whys-3,
-        #whys-2
+    #levels
            {
             flex-direction: column;
+            margin-top: 60px;
            }
 
-        #two-levels,
-        #pro-levels {
-        flex-direction: column;
+                   #whys-3,
+                   #whys-2 {
+                       flex-direction: column;
                    }
 }
