@@ -438,6 +438,7 @@ main {
 label {
     display: block;
     margin-bottom: 5px;
+    color: #00273D;
 }
 
 input[type="text"],
