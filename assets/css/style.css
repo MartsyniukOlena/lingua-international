@@ -352,35 +352,24 @@ main {
     margin: 45px 15px 5px;
 }
 
-/* Style the two-levels container */
+
 #two-levels,
 #pro-levels {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    justify-content: center;
-    margin: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-courses {
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #007BA7;
-    padding: 10px;
+    flex: calc(40% - 20px);
+    margin-right: 20px;
+    padding: 20px;
     margin: 10px;
-    min-width: 50%;
-    min-height: 50%;
-    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #00273D;
 }
-
-#business-eng,
-#intermediate-eng
-{
-    align-self: stretch;
-}
-
-
-/* Style the heading for the section */
-
+   
 #levels h3 {
     font-size: 150%;
     text-align: center;
@@ -396,12 +385,11 @@ main {
     line-height: 1.5;
     color: #00273D;
     text-align: center;
-    padding: 2px;
-    margin: 2px;
+    padding: 0;
+    margin: 1px;
 }
 
-#levels hr
-{
+#levels hr {
     margin: 10px 0;
     color: #00273D;
 }
