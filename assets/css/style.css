@@ -349,7 +349,7 @@ main {
 /*Courses page*/
 #levels
 {
-    margin: 50px 15px 15px;
+    margin: 45px 15px 5px;
 }
 
 /* Style the two-levels container */
@@ -359,7 +359,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin: 5px;
 }
 
 .main-courses {
@@ -369,9 +369,11 @@ main {
     margin: 10px;
     min-width: 50%;
     min-height: 50%;
+    display: block;
 }
 
-#business-eng
+#business-eng,
+#intermediate-eng
 {
     align-self: stretch;
 }
@@ -481,9 +483,9 @@ input[type="submit"]
     text-transform: uppercase;
     text-decoration: none;
     padding: 10px 5px;
-    margin: 0 auto;
-    width: 120px;
     display: block;
+    margin: 0 auto;
+    width: 20%;
 }
 
 
