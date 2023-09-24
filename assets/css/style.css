@@ -169,7 +169,7 @@ main {
 }
 
 #about i {
-    font-size: 150%;
+    font-size: 250%;
     margin-bottom: 10px;
     color: #007BA7;
 }
@@ -217,7 +217,7 @@ main {
 }
 
 .p-main i {
-    font-size: 150%;
+    font-size: 250%;
     margin-bottom: 10px;
     color: #007BA7;
 }
@@ -330,26 +330,10 @@ main {
     top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot:hover {
-    background-color: #00273D;
-}
-
 /*Courses page*/
 #levels
 {
-    margin: 45px 15px 5px;
+    margin: 60px 15px 5px;
 }
 
 
@@ -362,12 +346,13 @@ main {
 }
 
 .main-courses {
-    flex: calc(40% - 20px);
+    flex: calc(30% - 20px);
     margin-right: 20px;
     padding: 20px;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid #00273D;
+    box-shadow: 10px 5px 5px #00273D;
 }
    
 #levels h3 {
@@ -552,13 +537,13 @@ footer {
 @media screen and (min-width: 576px) {
  nav ul {
      font-size: 120%;
-     margin-top: 10px;
+     margin-top: 5px;
      margin-right: 20px;
  }
 
   #logo {
       /*reduce font size for the school name*/
-      font-size: 180%;
+      font-size: 150%;
       margin-right: 20px;
   }
 
@@ -579,12 +564,12 @@ footer {
     }
 
     nav ul {
-        font-size: 120%;
-        margin-top: 10px;
+        font-size: 100%;
+        margin-top: 5px;
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 120%;
     }
 
         #enroll {
