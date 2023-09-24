@@ -137,6 +137,8 @@ main {
     margin: 20px auto;
     text-align: center;
     line-height: 1.5;
+    width: 90%;
+    height: 80%;
 }
 
 #about h3 {
@@ -184,6 +186,7 @@ main {
 #whys {
     margin: 20px auto;
     width: 90%;
+    height: 80%;
     line-height: 1.5;
 }
 
@@ -232,6 +235,7 @@ main {
 #speaking-club-section
 {
     width: 90%;
+    height: 80%;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
@@ -310,17 +314,6 @@ main {
     background-color: #007BA7;
 }
 
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
 /* Number text (1/3 etc) */
 .numbertext {
     color: #00273D;
@@ -336,7 +329,7 @@ main {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #007BA7;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -487,7 +480,7 @@ input[type="submit"]
     padding: 10px 5px;
     display: block;
     margin: 0 auto;
-    width: 20%;
+    width: 140px;
 }
 
 
