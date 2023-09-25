@@ -446,7 +446,7 @@ input[type="submit"]
     background-color: #00273D;
     color: #ffffff;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 120%;
     padding: 10px 20px;
     border-radius: 3px;
     cursor: pointer;
@@ -459,7 +459,7 @@ input[type="submit"]
     background-color: #00273D;
     color: #ffffff;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 120%;
     border-radius: 3px;
     cursor: pointer;
     text-align: center;
@@ -471,6 +471,22 @@ input[type="submit"]
     width: 140px;
 }
 
+.learn-more {
+    background-color: #00273D;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+}
+
 
 .enroll-button:hover {
     background-color: #007BA7;
@@ -479,6 +495,11 @@ input[type="submit"]
 input[type="submit"]:hover {
     background-color: #007BA7;
 }
+
+.learn-more:hover {
+    background-color: #007BA7;
+}
+
 /* Footer */
 
 footer {
