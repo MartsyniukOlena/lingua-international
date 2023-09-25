@@ -728,9 +728,13 @@ footer {
             margin-top: 60px;
            }
 
-                   #whys-3,
-                   #whys-2 {
-                       flex-direction: column;
-                   }
+        #whys-3,
+        #whys-2 {
+            flex-direction: column;
+        }
+
+           .main-courses {
+            width: 100%;
+        }
 
 }
