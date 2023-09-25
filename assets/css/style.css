@@ -540,6 +540,79 @@ footer {
     display: block;
 }
 
+/*Style Thank you Form*/
+
+/* Style the whole section */
+#thankyou-section {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100vw;
+    height: 80vh;
+}
+
+#thankyou-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style the logo */
+#thankyou-section #logo {
+    color: #00273D;
+    margin-right: 20px;
+    letter-spacing: 0.1rem;
+    font-size: 180%;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 0 10px;
+}
+
+/* Style the "Return to Home Page" link */
+#thankyou-section a {
+    color: #00273D;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#thankyou-section a:hover {
+    background-color: #007BA7;
+    color: #ffffff;
+}
+
+.thankyou
+{
+    margin: 40px;
+}
+
+/* Style the "Thank you" message */
+.thankyou h2 {
+    text-align: center;
+    font-size: 180%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style the heart icon */
+.thankyou i {
+    color: red;
+}
+
+#thankyou-nav i {
+    margin-left: 12px;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+/* Style the paragraph */
+.thankyou p {
+    font-size: 150%;
+    margin-top: 20px;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+
 /*Media query:576 and down*/
 @media screen and (min-width: 576px) {
  nav ul {
@@ -554,6 +627,8 @@ footer {
       margin-right: 20px;
   }
 
+  
+
 }
 
 /*Media query:768px and up*/
@@ -561,8 +636,14 @@ footer {
     header {
         flex-direction: column;
         align-items: center;
-
     }
+
+    #thankyou-nav
+    {
+    flex-direction: column;
+        align-items: center;
+    }
+
 
     header i {
         /*remove margin from the icon*/
