@@ -50,12 +50,14 @@ It's for potential students who want to learn more about the school and its valu
 
 
 - Why Choose Lingua International?:
+___
 
 This section highlights the key benefits of choosing Lingua International, such as experienced instructors, interactive learning, a supportive community, flexibility in scheduling, and inclusivity.
 It's for potential students who are evaluating their options and want to understand why Lingua International stands out.
-
+![Why Choose Lingua International](readme-media/why-section.png)
 
 Speaking Club:
+___
 The Speaking Club is a unique opportunity that provides a platform for users to practice their English speaking skills in a supportive and interactive environment, fostering fluency and community building.
 It's for both current students and anyone interested in improving their English speaking skills and connecting with others.
 
