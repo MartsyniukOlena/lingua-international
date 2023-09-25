@@ -59,10 +59,11 @@ It's for potential students who are evaluating their options and want to underst
 Speaking Club:
 ___
 The Speaking Club is a unique opportunity that provides a platform for users to practice their English speaking skills in a supportive and interactive environment, fostering fluency and community building.
-It's for both current students and anyone interested in improving their English speaking skills and connecting with others.
+It's for both current students and anyone interested in improving their English speaking skills and connecting with others. It contains an enroll button to sign up.
+![Speaking Club](readme-media/speaking-club-section.png)
 
-
-Photo caurousel:
+- Photo caurousel:
+___
 Photo carousel consists of three photos from the course to demonstate the friendly and positive atmosphere students are learning in. 
 This feature aims to appeal to prospective students, helping them envision the welcoming environment students will be a part of and encouraging them to choose our institution for its nurturing educational atmosphere.
 
