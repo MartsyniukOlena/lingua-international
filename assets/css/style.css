@@ -541,8 +541,6 @@ footer {
 }
 
 /*Style Thank you Form*/
-
-/* Style the whole section */
 #thankyou-section {
     text-align: center;
 }
@@ -590,7 +588,6 @@ footer {
     height: 100%;
 }
 
-/* Style the "Thank you" message */
 .thankyou h2 {
     text-align: center;
     font-size: 180%;
@@ -598,7 +595,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Style the heart icon */
 .thankyou i {
     color: red;
 }
@@ -609,7 +605,6 @@ footer {
     font-size: 1.5rem;
 }
 
-/* Style the paragraph */
 .thankyou p {
     font-size: 150%;
     margin-top: 20px;
