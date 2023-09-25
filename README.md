@@ -32,7 +32,7 @@ Existing Features
 ___
 
 Navigation Bar is featured on all three pages of the website. It is fixed so the user should not scroll up to switch between the pages. It includes the Logo with the attached link to the homepage, Home page, Courses page and Enroll page.
-![Navigation bar](media/navigation-bar.png)
+![Navigation bar](readme-media/navigation-bar.png)
 This section will allow to easily explore and access various sections of the website. It provides value by offering quick and convenient navigation, enabling users to find the information they are looking for efficiently. 
 
 - Home Page:
@@ -40,17 +40,18 @@ ___
 
 The home page provides a welcoming introduction to Lingua International, emphasizing dedication to English language education and their transformative approach to elevate English proficiency.
 It is for potential students and individuals interested in learning English.
-![Hero](media/hero-section.png)
+![Hero](readme-media/hero-section.png)
 
-About Us:
+- About Us:
 ___
-The "About Us" section introduces Lingua International's mission and commitment to providing top-quality English language education, creating a sense of trust.
+The "About Us" section introduces Lingua International's mission and commitment to providing top-quality English language education, creating a sense of trust. It contains a call to action paragraph and a button to go to the course offerings.
 It's for potential students who want to learn more about the school and its values.
+![About us](readme-media/aboutus-section.png)
 
 
+- Why Choose Lingua International?:
 
-Why Choose Lingua International?:
-Value: This section highlights the key benefits of choosing Lingua International, such as experienced instructors, interactive learning, a supportive community, flexibility in scheduling, and inclusivity.
+This section highlights the key benefits of choosing Lingua International, such as experienced instructors, interactive learning, a supportive community, flexibility in scheduling, and inclusivity.
 It's for potential students who are evaluating their options and want to understand why Lingua International stands out.
 
 
