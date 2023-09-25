@@ -56,7 +56,7 @@ This section highlights the key benefits of choosing Lingua International, such 
 It's for potential students who are evaluating their options and want to understand why Lingua International stands out.
 ![Why Choose Lingua International](readme-media/why-section.png)
 
-Speaking Club:
+- Speaking Club:
 ___
 The Speaking Club is a unique opportunity that provides a platform for users to practice their English speaking skills in a supportive and interactive environment, fostering fluency and community building.
 It's for both current students and anyone interested in improving their English speaking skills and connecting with others. It contains an enroll button to sign up.
@@ -65,9 +65,11 @@ It's for both current students and anyone interested in improving their English 
 - Photo caurousel:
 ___
 Photo carousel consists of three photos from the course to demonstate the friendly and positive atmosphere students are learning in. 
-This feature aims to appeal to prospective students, helping them envision the welcoming environment students will be a part of and encouraging them to choose our institution for its nurturing educational atmosphere.
+This feature aims to appeal to prospective students, helping them envision the welcoming environment students will be a part of and encouraging them to choose the school for its nurturing educational atmosphere.
+![Photo caurousel](readme-media/carousel.png)
 
-Courses:
+- Courses:
+___
  This section contains  details about the various English language courses offered by Lingua International, helping users understand the available options and how they can achieve their language learning goals. the School offers English language courses for individuals at different proficiency levels. The courses offered are two basic courses - beginner level and intermediate level and two advanced courses - business english and english for academic purposes.
 each course has a description if their goals for who these course suits, content that aligns with the specific goals and needs of each user group duration, flexible scheduling options and costs. and enroll button to easily enroll to the desired course.
 It's for prospective students seeking information about the courses offered.
