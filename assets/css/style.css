@@ -134,7 +134,7 @@ main {
 
 /* Style the about section */
 #about {
-    margin: 20px auto;
+    margin: 30px auto;
     text-align: center;
     line-height: 1.5;
     width: 100%;
@@ -183,7 +183,7 @@ main {
 /* Style the "why" section */
 
 #whys {
-    margin: 20px auto;
+    margin: 30px auto;
     width: 90%;
     line-height: 1.5;
 }
@@ -235,7 +235,7 @@ main {
 #speaking-club-section
 {
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -389,7 +389,7 @@ main {
 /*enroll page*/
 #enroll-page
 {
-    background-image: url("../images/background-enroll.webp");
+    background-image: url("../images/background-courses.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
