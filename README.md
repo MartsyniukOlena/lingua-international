@@ -151,13 +151,33 @@ __The bugs left to fix:__
 - make the links craable on the carousel for previous and next buttons
 
 __Validator Testing__
-HTML: No errors were returned when passing through the W3C validator
-[Home Page](https://validator.w3.org/nu/#textarea)
-[Enroll Page](https://validator.w3.org/nu/#textarea) 
-[Courses page](https://validator.w3.org/nu/#textarea) 
-[Thank you page](https://validator.w3.org/nu/#textarea) 
+HTML: No errors were returned when passing through the [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartsyniukolena.github.io%2Flingua-international%2F)
 
-CSS: No errors were found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
+CSS: No errors were found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmartsyniukolena.github.io%2Flingua-international%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment
+
+The site was deployed to GitHub pages.
+
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://martsyniukolena.github.io/lingua-international/
+
+## Credits
+Color palette was generated at [MyColor](https://mycolor.space/?hex=%2331809A&sub=1)
+
+Favicon icon was downloaded [Icons8](https://icons8.com/icons/set/book)
+
+Icons were downloaded from [Fontawesome](https://fontawesome.com/search)
+
+pictures were downloded from [Pexel](https://www.pexels.com/search/group%20of%20people/?orientation=landscape&size=large)
+
+Carousel was copied from [w3schools](https://www.w3schools.com/howto/default.asp)
+
+Description for business english was taken from [British Counsil](https://learnenglish.britishcouncil.org/business-english)
+
+I referenced love running project. it helped me to crate the header, hero image and make the website responsive.
 
 
 
