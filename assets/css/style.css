@@ -429,13 +429,15 @@ select {
     margin-bottom: 10px;
     border: 1px solid #00273D;
     border-radius: 3px;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 #enroll select
 {
-font-size: 100%;
+font-size: 120%;
 color: #00273D;
+font-family: 'Cormorant Garamond', serif;
+font-weight: bold;
 }
 
 /* Style the submit button */
