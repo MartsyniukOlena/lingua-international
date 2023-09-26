@@ -80,11 +80,15 @@ It's for prospective students seeking information about the courses offered.
 ___
 - Enroll:
 
-The enrollment section provides a pathway for interested individuals to take the next step in their language learning journey by signing up for courses.
+The enrollment section provides a pathway for interested individuals to take the next step in their language-learning journey by signing up for courses. The form consists of the following elements: First Name, Last Name, Email, Phone Number, address, select area for a course of interest, and Message.
+![Enroll](readme-media/enroll-page.png)
 This is for prospective students who are ready to enroll in a course.
+___
+- Footer
 
-The footer section of our website plays a crucial role in enhancing the user experience and providing valuable information to our visitors.
+The footer section enhances the user experience and provides valuable information to visitors.
 
+The footer consists
 Social Media Links (Facebook, Twitter, Instagram, YouTube): These social media links in the footer allow users to easily connect with us on various platforms. By following us on social media, users can stay updated with our latest news, events, and language-related content. This feature is especially useful for language enthusiasts, potential students, and anyone interested in staying connected with Lingua International.
 
 Copyright © Lingua International 2023: The copyright notice in the footer not only protects our intellectual property but also assures users that our content is original and up-to-date. It adds a sense of professionalism and trustworthiness to our website.
