@@ -261,8 +261,6 @@ main {
 }
 
 
-/* Style slideshow */
-
 * {
     box-sizing: border-box
 }
@@ -274,8 +272,7 @@ main {
     margin: auto;
 }
 
-.slideshow-container img
-{
+.slideshow-container img {
     width: 100%;
     height: 100%;
 }
@@ -332,6 +329,39 @@ main {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #007BA7;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /*Courses page*/
