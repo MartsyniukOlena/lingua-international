@@ -87,18 +87,19 @@ ___
 - Footer
 
 The footer section enhances the user experience and provides valuable information to visitors.
+![Footer](readme-media/footer-section.png)
 
-The footer consists
-Social Media Links (Facebook, Twitter, Instagram, YouTube): These social media links in the footer allow users to easily connect with us on various platforms. By following us on social media, users can stay updated with our latest news, events, and language-related content. This feature is especially useful for language enthusiasts, potential students, and anyone interested in staying connected with Lingua International.
+The footer section caters to language learners, prospective students, and individuals interested in services. It serves as a hub for contact information and social engagement.
 
-Copyright © Lingua International 2023: The copyright notice in the footer not only protects our intellectual property but also assures users that our content is original and up-to-date. It adds a sense of professionalism and trustworthiness to our website.
+The footer consists of the following elements:
 
-Business Hours: Displaying our business hours for each day of the week helps users plan their interactions with us. It's particularly beneficial for students and clients who want to visit our physical location or contact us during our operational hours.
+Social Media Links (Facebook, Twitter, Instagram, YouTube): These links allow users to easily connect with the school on various platforms.This feature is especially useful for language enthusiasts, potential students, and anyone interested in staying connected with Lingua International.
 
-Address: Providing our physical address in the footer allows users to quickly locate us. This information is essential for potential students and clients who may want to visit our premises for consultations, classes, or other inquiries.
+Copyright © Lingua International 2023: The copyright notice in the footer protects intellectual property and also assures users that the content is up-to-date.
 
-Email Address: Listing our email address in the footer offers users an additional communication channel. This is valuable for inquiries, support, and general correspondence. Users can easily reach out to us for any language-related questions or concerns.
+Business Hours: It helps users to plan their interactions with the school. It is beneficial for students and clients who want to visit physical location or contact the school during working hours.
 
-Phone Number: Displaying our phone number ensures that users have a direct means of contacting us for urgent matters or inquiries. It's especially convenient for those who prefer verbal communication.
-Overall, the footer section of our website caters to a diverse audience, including language learners, prospective students, and individuals interested in our language services. It serves as a hub for contact information and social engagement, ultimately facilitating their goals of language learning and cultural exploration through Lingua International.
+Address: Physical address allows users to quickly locate the school. This information is essential for potential students and clients who may want to visit the premises for consultations, classes, or other inquiries.
+
+Email Address and Phone Number: It offers users additional communication channels. This is valuable for inquiries, support, and general correspondence. Users can easily reach out to the school for any language-related questions or concerns.
 
