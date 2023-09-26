@@ -30,7 +30,7 @@ Existing Features
 ___
 - Navigation Bar
 
-Navigation Bar is featured on all three pages of the website. It is fixed so the user should not scroll up to switch between the pages. It includes the Logo with the attached link to the homepage, Home page, Courses page and Enroll page.
+Navigation Bar is featured on all pages of the website. It is fixed so the user should not scroll up to switch between the pages. It includes the Logo with the attached link to the homepage, Home page, Courses page and Enroll page.
 ![Navigation bar](readme-media/navigation-bar.png)
 This section will allow to easily explore and access various sections of the website. It provides value by offering quick and convenient navigation, enabling users to find the information they are looking for efficiently. 
 
@@ -86,7 +86,7 @@ This is for prospective students who are ready to enroll in a course.
 ___
 - Footer
 
-The footer section enhances the user experience and provides valuable information to visitors.
+The footer section enhances the user experience and provides valuable information to visitors. It is featured on all pages of the website.
 ![Footer](readme-media/footer-section.png)
 
 The footer section caters to language learners, prospective students, and individuals interested in services. It serves as a hub for contact information and social engagement.
@@ -102,4 +102,20 @@ Business Hours: It helps users to plan their interactions with the school. It is
 Address: Physical address allows users to quickly locate the school. This information is essential for potential students and clients who may want to visit the premises for consultations, classes, or other inquiries.
 
 Email Address and Phone Number: It offers users additional communication channels. This is valuable for inquiries, support, and general correspondence. Users can easily reach out to the school for any language-related questions or concerns.
+___
+- Thank you page
+![Thank you page](readme-media/thank-you-page.png)
+After registering, a user is redirected to thank you form to confirm their registration is successful and express gratitude.
+
+>Features Left to Implement:
+-Online lessons, masterclasses, webinars
+- Blog
+- Downloadable resources like speaking tips, presentations, and reading materials
+- Access to recordings or transcripts of past club meetings and events
+- Calendar of upcoming events and courses
+- Chat for members to discuss speaking topics, share ideas, and seek advice
+- An option for visitors to subscribe to a newsletter for updates and event notifications
+- Testimonials and Stories
+
+
 
