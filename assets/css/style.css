@@ -418,6 +418,7 @@ label {
     margin-bottom: 5px;
     color: #00273D;
     font-weight: bold;
+    font-size: 110%;
 }
 
 input[type="text"],
@@ -429,10 +430,10 @@ select {
     margin-bottom: 10px;
     border: 1px solid #00273D;
     border-radius: 3px;
-    font-size: 120%;
 }
 
-#enroll select
+#enroll select,
+#enroll textarea
 {
 font-size: 120%;
 color: #00273D;
