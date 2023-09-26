@@ -430,6 +430,8 @@ select {
     margin-bottom: 10px;
     border: 1px solid #00273D;
     border-radius: 3px;
+    font-size: 110%;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #enroll select,
@@ -453,6 +455,7 @@ input[type="submit"]
     cursor: pointer;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /*style for button*/
@@ -470,6 +473,7 @@ input[type="submit"]
     display: block;
     margin: 0 auto;
     width: 140px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .learn-more {
@@ -486,6 +490,7 @@ input[type="submit"]
     display: block;
     margin: 0 auto;
     width: 280px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 
