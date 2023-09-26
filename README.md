@@ -120,37 +120,37 @@ After registering, a user is redirected to thank you form to confirm their regis
 I conducted the following testing:
 
 __Functionality Testing:__
+
 - Verified that all links work correctly
 - Tested the forms
 - Ensured that the site's navigation menus and buttons work as expected
 
 __Compatibility Testing:__
+
 - Checked how the website works on different web browsers - Chrome, Firefox, Edge
 - Tested the website on desktop and mobile
 - Tested the website on Windows and Android
 
 __Performance Testing:__
+
 Performance testing was done with Lighthouse.
 The current results are the following:
 ![Lighthouse current report](readme-media/lighthouse-report.png)
 
-The bugs that were fixed are:
+The bugs that Lighthouse showed and that were fixed are:
 
--resized images and converted them to webp
+- resized images and converted them to webp
+- added alt to images in the carousel
+- added  header "Day" to the table element
+- removed stray tags - body and header, main, div
+- changed colors for contrast on the carousel and navigation menu
 
--added alt to images in carousel
-
--added  header "Day" to table element
-
--remove stray tags - body and header, main
-
--change colors for contrast on carousel and navigation menu
-
-__The bugs left to fix:__
+__The issues left to fix__ (to improve performance and SEO)
 - Serve static assets with an efficient cache policy 
 - make the links craable on the carousel for previous and next buttons
 
 __Validator Testing__
+
 HTML: No errors were returned when passing through the [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmartsyniukolena.github.io%2Flingua-international%2F)
 
 CSS: No errors were found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmartsyniukolena.github.io%2Flingua-international%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -159,25 +159,25 @@ CSS: No errors were found when passing through the [Jigsaw validator](https://ji
 
 The site was deployed to GitHub pages.
 
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+In the GitHub repository, go to Settings --> In the Code and automation section on the left side, Press Pages --> Under the Source, select 'Deploy from a branch' --> Under the Branch, select Main and press the Save button.
+Refresh the page. The link will be at the top.
+
 The live link can be found here - https://martsyniukolena.github.io/lingua-international/
 
 ## Credits
 Color palette was generated at [MyColor](https://mycolor.space/?hex=%2331809A&sub=1)
 
-Favicon icon was downloaded [Icons8](https://icons8.com/icons/set/book)
+Favicon was downloaded at [Icons8](https://icons8.com/icons/set/book)
 
 Icons were downloaded from [Fontawesome](https://fontawesome.com/search)
 
-pictures were downloded from [Pexel](https://www.pexels.com/search/group%20of%20people/?orientation=landscape&size=large)
+Pictures were downloded from [Pexel](https://www.pexels.com/search/group%20of%20people/?orientation=landscape&size=large)
 
 Carousel was copied from [w3schools](https://www.w3schools.com/howto/default.asp)
 
 Description for business english was taken from [British Counsil](https://learnenglish.britishcouncil.org/business-english)
 
-I referenced love running project. it helped me to crate the header, hero image and make the website responsive.
+I referenced Love Running project.
 
 
 
