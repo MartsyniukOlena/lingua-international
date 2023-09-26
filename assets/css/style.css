@@ -433,6 +433,7 @@ textarea {
     border-radius: 3px;
     font-size: 110%;
     font-family: 'Cormorant Garamond', serif;
+    appearance: none;
 }
 
 #enroll select,
