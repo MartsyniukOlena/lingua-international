@@ -646,8 +646,6 @@ footer {
       margin-right: 20px;
   }
 
-  
-
 }
 
 /*Media query:768px and up*/
@@ -718,6 +716,26 @@ footer {
     flex-direction: column;
     align-items: baseline;
 }
+
+#thankyou-section #logo {
+    font-size: 130%;
+}
+
+#thankyou-section a {
+    font-size: 100%;
+}
+
+.thankyou h2 {
+    font-size: 120%;
+}
+
+.thankyou p
+{
+        font-size: 100%;
+    }
+
+    
+
         }
 
 /* Responsive styles for screens 1200 px and down */
