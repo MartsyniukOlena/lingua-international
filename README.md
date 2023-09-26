@@ -142,9 +142,24 @@ The bugs that were fixed are:
 
 -added  header "Day" to table element
 
--remove stray tags - body and header
+-remove stray tags - body and header, main
 
--change colors for contrast
+-change colors for contrast on carousel and navigation menu
 
 __The bugs left to fix:__
+- Serve static assets with an efficient cache policy 
+- make the links craable on the carousel for previous and next buttons
+
+__Validator Testing__
+HTML: No errors were returned when passing through the W3C validator
+home page(https://validator.w3.org/nu/#textarea)
+enroll page https://validator.w3.org/nu/#textarea
+
+
+CSS: No errors were found when passing through the (Jigsaw) validator
+
+
+
+
+
 
