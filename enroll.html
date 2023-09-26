@@ -50,24 +50,19 @@
             <label for="address">Your Address</label>
             <input type="text" id="address" name="address" aria-label="Your Adress" required><br>
 
-            <input type="radio" id="beginner" name="language_course" value="beginner_level" aria-label="Language Couse - Beginner Level" checked required>
-            <label for="beginner">Beginner Level</label><br>
-        
-            <input type="radio" id="intermediate" name="language_course" value="intermediate_level" aria-label="Language Couse - Intermediate Level" required>
-            <label for="intermediate">Intermediate Level</label><br>
-
-            <input type="radio" id="business-english" name="language_course" value="business_english" aria-label="Language Couse - Business English" required>
-            <label for="business-english">Business English</label><br>
-
-            <input type="radio" id="academic-english" name="language_course" value="academic_english" aria-label="Language Couse - Academic English" required>
-            <label for="academic-english">Academic English</label><br>
-        
-            <input type="radio" id="speaking_club" name="language_course" value="speaking_club" aria-label="Speaking Club" required>
-            <label for="speaking_club">Speaking Club</label><br><br>
+            <label for="courses_choice">Which course would you like to join?</label>
+            <select id="courses_choice" name="language_course">
+                <option value="beginner_level" aria-label="Language Couse - Beginner Level" selected required>Beginner Level</option>
+                <option value="intermediate_level" aria-label="Language Couse - Intermediate Level">Intermediate Level</option>
+                <option value="business_english" aria-label="Language Couse - Business English" >Business English</option>
+                <option value="academic_english" aria-label="Language Couse - Academic English">Academic English</option>
+                <option value="speaking_club" aria-label="Speaking Club">Speaking Club</option>
+            </select><br>
         
             <input type="submit" value="Enroll" aria-label="Enroll">
         </form>
         </section>
+    
     </main>
     <!-- Footer -->
     <footer>
