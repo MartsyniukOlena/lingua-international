@@ -502,7 +502,7 @@ input[type="submit"]:hover {
 footer {
     background-color: #ffffff;
     color: #00273D;
-    font-size: 1.3rem;
+    font-size: 130%;
     border-top: 2px solid #00273D;
     display: block;
 }
@@ -530,7 +530,6 @@ footer {
 
 #social-media a {
     color: #00273D;
-    font-size: 24px;
     text-decoration: none;
 }
 
@@ -646,6 +645,8 @@ footer {
       margin-right: 20px;
   }
 
+
+
 }
 
 /*Media query:768px and up*/
@@ -735,8 +736,6 @@ footer {
 {
         font-size: 100%;
     }
-
-
 
         }
 
