@@ -152,11 +152,12 @@ __The bugs left to fix:__
 
 __Validator Testing__
 HTML: No errors were returned when passing through the W3C validator
-home page(https://validator.w3.org/nu/#textarea)
-enroll page https://validator.w3.org/nu/#textarea
+[Home Page](https://validator.w3.org/nu/#textarea)
+[Enroll Page](https://validator.w3.org/nu/#textarea) 
+[Courses page](https://validator.w3.org/nu/#textarea) 
+[Thank you page](https://validator.w3.org/nu/#textarea) 
 
-
-CSS: No errors were found when passing through the (Jigsaw) validator
+CSS: No errors were found when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator)
 
 
 
