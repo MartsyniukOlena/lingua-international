@@ -281,7 +281,7 @@ main {
 }
 
 /* Hide the images by default */
-.myslides {
+.mySlides {
     display: none;
 }
 
