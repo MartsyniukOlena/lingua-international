@@ -117,4 +117,34 @@ After registering, a user is redirected to thank you form to confirm their regis
 - Testimonials and Stories
 
 ## Testing
+I conducted the following testing:
+
+__Functionality Testing:__
+- Verified that all links work correctly
+- Tested the forms
+- Ensured that the site's navigation menus and buttons work as expected
+
+__Compatibility Testing:__
+- Checked how the website works on different web browsers - Chrome, Firefox, Edge
+- Tested the website on desktop and mobile
+- Tested the website on Windows and Android
+
+__Performance Testing:__
+Performance testing was done with Lighthouse.
+The current results are the following:
+![Lighthouse current report](readme-media/lighthouse-report.png)
+
+The bugs that were fixed are:
+
+-resized images and converted them to webp
+
+-added alt to images in carousel
+
+-added  header "Day" to table element
+
+-remove stray tags - body and header
+
+-change colors for contrast
+
+__The bugs left to fix:__
 
