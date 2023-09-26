@@ -719,10 +719,12 @@ footer {
 
 #thankyou-section #logo {
     font-size: 130%;
+    padding-top: 10px;
 }
 
 #thankyou-section a {
     font-size: 100%;
+    padding-top: 10px;
 }
 
 .thankyou h2 {
@@ -734,7 +736,7 @@ footer {
         font-size: 100%;
     }
 
-    
+
 
         }
 
