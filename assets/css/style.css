@@ -422,19 +422,20 @@ label {
 
 input[type="text"],
 input[type="email"],
-input[type="tel"] {
+input[type="tel"],
+select {
     width: 100%;
     padding: 7px;
     margin-bottom: 10px;
     border: 1px solid #00273D;
     border-radius: 3px;
     font-size: 100%;
-    
 }
 
-/* Style radio buttons */
-input[type="radio"] {
-    margin-right: 5px;
+#enroll select
+{
+font-size: 100%;
+color: #00273D;
 }
 
 /* Style the submit button */
