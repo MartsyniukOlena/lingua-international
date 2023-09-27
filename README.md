@@ -179,7 +179,9 @@ Description for business english was taken from [British Counsil](https://learne
 
 To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/)
 
-I referenced the Love Running project(to create header, general styles, for hero image and cover text).
+I referenced the Love Running project as a guide(to create header, general styles, for hero image and cover text, registration form) and also Coders Coffeehouse(to create the table for working hours).
+
+I used address generator to create the address.
 
 
 
