@@ -1,17 +1,17 @@
 ___
 # Lingua International
 
-Lingua International is a dynamic platform designed to empower individuals from diverse backgrounds with the invaluable skill of English proficiency. 
+Lingua International is a school designed to empower individuals with the invaluable skill of English proficiency. 
 
-The school caters to a broad spectrum of learners, including beginners eager to embark on their English learning journey and those seeking to refine their existing skills. Language acquisition is not just about mastering grammar and vocabulary but also about engaging in meaningful conversations. That's why the school host an open speaking club accessible to all, encouraging students to discuss various topics, bridging cultures and perspectives. The club welcomes English learners and also native speakers who wish to connect, share their experiences, and contribute to a vibrant language exchange environment. 
+The school caters to a broad spectrum of learners, including beginners eager to embark on their English learning journey and those seeking to refine their existing skills. Language learning is not just about mastering grammar and vocabulary but also about engaging in meaningful conversations. That's why the school host an open speaking club accessible to all, encouraging students to discuss various topics, bridging cultures and perspectives. The club welcomes English learners and also native speakers who wish to connect, share their experiences, and contribute to a vibrant language exchange environment. 
 
-The platform ensures that whether you're a non-native speaker striving for fluency or a native speaker eager to share your language and culture, Lingua International has something enriching for everyone.
+The school ensures that whether you're a non-native speaker striving for fluency or a native speaker eager to share your language and culture, Lingua International has something enriching for everyone.
 
 ![mockup](readme-media/mockup.png)
 
 >Business Goals:
 
-1. To establish Lingua International as a leading platform for English language learning and language exchange.
+1. To establish Lingua International as a leading source for English language learning and language exchange.
 
 2. To create a vibrant and inclusive community of English learners and native speakers.
 
@@ -19,7 +19,7 @@ The platform ensures that whether you're a non-native speaker striving for fluen
 
 1. Provide a platform for individuals of all levels (beginner to advanced) to improve their English language skills.
 
-2. Offer a space for native English speakers to connect, share experiences, and engage in language exchange.
+2. Involve native English speakers to connect, share experiences, and exchange language.
 ___
 
 ## Features
@@ -43,7 +43,7 @@ It is for potential students and individuals interested in learning English.
 ___
 - __About Us:__
 
-The "About Us" section introduces Lingua International's mission and commitment to providing top-quality English language education, creating a sense of trust. It contains a call to action paragraph and a button to go to the course offerings.
+The "About Us" section introduces Lingua International's mission and commitment to providing top-quality English language education. It contains a call to action paragraph and a button to go to the course offerings.
 It's for potential students who want to learn more about the school and its values.
 ![About us](readme-media/aboutus-section.png)
 
@@ -68,7 +68,7 @@ This feature aims to appeal to prospective students, helping them envision the w
 ___
 - __Courses:__
 
-This section details the various English language courses offered by Lingua International, helping users understand the available options and how to achieve their language learning goals. The School offers English language courses for individuals at different proficiency levels. The courses are two basic courses (beginner level and intermediate level).
+This section details the various English language courses offered by Lingua International, helping users understand the available options and how to achieve their language learning goals. The School offers English language courses for individuals at different levels. The courses are two basic courses (beginner level and intermediate level).
 ![Basic Courses](readme-media/courses-section-basic-levels.png)
 
 And two advanced courses (business English and academic English).
