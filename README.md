@@ -177,9 +177,9 @@ Carousel was copied from [w3schools](https://www.w3schools.com/howto/default.asp
 
 Description for business english was taken from [British Counsil](https://learnenglish.britishcouncil.org/business-english)
 
-To check grammar and text, I used [Grammarly](https://app.grammarly.com/)
+To check grammar and edit text, I used [Grammarly](https://app.grammarly.com/)
 
-I referenced the Love Running project.
+I referenced the Love Running project(to create header, general styles, for hero image and cover text).
 
 
 
