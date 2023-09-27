@@ -3,7 +3,7 @@ ___
 
 Lingua International is a school whose mission is to empower individuals with the invaluable skill of English proficiency. 
 
-The school caters to a broad spectrum of learners, including beginners eager to embark on their English learning journey and those seeking to refine their existing skills. Language learning is not just about mastering grammar and vocabulary but also about engaging in meaningful conversations. That's why the school host an open speaking club accessible to all, encouraging students to discuss various topics bridging cultures and perspectives. The club welcomes English learners and also native speakers who wish to connect, share their experiences, and contribute to a vibrant language exchange environment. 
+The school caters to a broad spectrum of learners, including beginners eager to start learning English and those seeking to refine their existing skills. Language learning is not just about mastering grammar and vocabulary but also about engaging in meaningful conversations. That's why the school host an open speaking club accessible to all, encouraging students to discuss various topics bridging cultures and perspectives. The club welcomes English learners and also native speakers who wish to connect, share their experiences, and contribute to a vibrant language exchange environment. 
 
 The school ensures that whether you're a non-native speaker striving for fluency or a native speaker eager to share your language and culture, Lingua International has something enriching for everyone.
 
@@ -79,7 +79,7 @@ It's for prospective students seeking information about the courses offered.
 ___
 - __Enroll:__
 
-The enrollment section provides a pathway for interested individuals to take the next step in their language-learning journey by signing up for courses. The form consists of the following elements: First Name, Last Name, Email, Phone Number, Address, select area for a course of interest, and Message.
+The enrollment section provides an opportunity for interested individuals to sign up for courses. The form consists of the following elements: First Name, Last Name, Email, Phone Number, Address, select area for a course of interest, and Message.
 ![Enroll](readme-media/enroll-page.png)
 This is for prospective students who are ready to enroll in a course.
 ___
