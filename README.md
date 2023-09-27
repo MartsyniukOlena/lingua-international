@@ -45,20 +45,20 @@ ___
 
 The "About Us" section introduces Lingua International's mission and commitment to providing top-quality English language education. It contains a call to action paragraph and a button to go to the course offerings.
 It's for potential students who want to learn more about the school and its values.
-![About us](readme-media/aboutus-section.png)
+![About us](readme-media/about-us-section.png)
 
 ___
 - __Why Choose Lingua International?:__
 
 This section highlights the key benefits of choosing Lingua International, such as experienced instructors, interactive learning, a supportive community, flexibility, and inclusivity.
 It's for potential students who evaluate their options and want to understand why Lingua International stands out.
-![Why Choose Lingua International](readme-media/why-section.png)
+![Why Choose Lingua International]()
 ___
 - __Speaking Club:__
 
 The Speaking Club provides a platform to practice English speaking skills in a supportive and interactive environment, fostering fluency and community building.
 It's for current students and anyone interested in improving their English speaking skills and connecting with others. It is also open for native speakers. Below the section, there is an enroll button to sign up.
-![Speaking Club](readme-media/speaking-club-section.png)
+![Speaking Club](readme-media/why-section.png)
 ___
 - __Photo caurousel:__
 
@@ -69,10 +69,10 @@ ___
 - __Courses:__
 
 This section details the various English language courses offered by Lingua International, helping users understand the available options and how to achieve their language learning goals. The School offers English language courses for individuals at different levels. The courses are two basic courses (beginner level and intermediate level).
-![Basic Courses](readme-media/courses-section-basic-levels.png)
+![Basic Courses](readme-media/courses-basic-levels.png)
 
 And two advanced courses (business English and academic English).
-![Advanced Courses](readme-media/courses-section-pro-levels.png)
+![Advanced Courses](readme-media/courses-pro-levels.png)
 
 Each course has a content description that aligns with each user's goals and needs, duration, flexible scheduling options and costs. And enroll button to enroll on the desired course easily.
 It's for prospective students seeking information about the courses offered.
