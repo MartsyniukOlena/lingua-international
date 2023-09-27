@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-        /*General styles*/
     color: #00273D;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -29,7 +28,6 @@ h4
 }
 
 /* Header */
-
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -43,7 +41,7 @@ header {
     z-index: 15;
 }
 
-/* Logo*/
+/*Logo*/
 #logo {
     letter-spacing: 0.1rem;
     font-size: 180%;
@@ -81,7 +79,6 @@ nav ul {
     text-decoration: none;
     color: #00273D;
     margin-left: 10px;
-
 }
 
 
@@ -98,7 +95,7 @@ header a {
     text-transform: uppercase;
 }
 
-/*Cover Image*/
+/*Hero Image and cover text*/
 #hero {
     background-color: #00273D;
     background-image: url("../images/hero.webp");
@@ -232,7 +229,6 @@ main {
 }
 
 /* Style speaking club section */
-
 #speaking-club-section
 {
     width: 90%;
@@ -260,12 +256,11 @@ main {
     text-align: center;
 }
 
-
+/* Style carousel */
 * {
     box-sizing: border-box
 }
 
-/* Style carousel */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -343,7 +338,6 @@ main {
     transition: background-color 0.6s ease;
 }
 
-
 .dot:hover {
     background-color: #007BA7;
 }
@@ -365,7 +359,7 @@ main {
 }
 /*End of carousel style*/
 
-/*Courses page*/
+/*Style Courses page*/
 #levels {
     display: flex;
     flex-wrap: wrap;
@@ -373,7 +367,7 @@ main {
     margin: 20px;
 }
 
-/* Style individual course containers */
+/* Style individual course containers*/
 .main-courses {
     width: 45%;
     background-color: #FFFFFF;
@@ -506,7 +500,7 @@ input[type="submit"]
     font-family: 'Cormorant Garamond', serif;
 }
 
-.learn-more {
+.go-to {
     background-color: #00273D;
     color: #ffffff;
     font-weight: bold;
@@ -523,7 +517,6 @@ input[type="submit"]
     font-family: 'Cormorant Garamond', serif;
 }
 
-
 .enroll-button:hover {
     background-color: #007BA7;
 }
@@ -532,7 +525,7 @@ input[type="submit"]:hover {
     background-color: #007BA7;
 }
 
-.learn-more:hover {
+.go-to:hover {
     background-color: #007BA7;
 }
 
@@ -602,43 +595,6 @@ footer {
     text-align: center;
 }
 
-#thankyou-nav {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    margin: 0 auto;
-    position: fixed;
-    width: 100%;
-    border-bottom: 2px solid #00273D;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 15;
-}
-
-/* Style the logo */
-#thankyou-section #logo {
-    color: #00273D;
-    margin-right: 20px;
-    letter-spacing: 0.1rem;
-    font-size: 180%;
-    font-family: 'Cormorant Garamond', serif;
-    padding: 0 10px;
-}
-
-/* Style the "Return to Home Page" link */
-#thankyou-section a {
-    color: #00273D;
-    font-size: 24px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#thankyou-section a:hover {
-    background-color: #007BA7;
-    color: #ffffff;
-}
-
 .thankyou
 {
     margin-top: 150px;
@@ -654,9 +610,6 @@ footer {
 
 .thankyou i {
     color: red;
-}
-
-#thankyou-nav i {
     margin-left: 12px;
     margin-bottom: 0;
     font-size: 1.5rem;
@@ -668,7 +621,6 @@ footer {
     padding: 0 10px;
     margin: 10px;
 }
-
 
 /*Media query:576 and down*/
 @media screen and (min-width: 576px) {
