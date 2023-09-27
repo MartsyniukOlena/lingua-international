@@ -265,7 +265,7 @@ main {
     box-sizing: border-box
 }
 
-/* Slideshow container */
+/* Style carousel */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -363,6 +363,7 @@ main {
         opacity: 1
     }
 }
+/*End of carousel style*/
 
 /*Courses page*/
 #levels {
@@ -399,7 +400,6 @@ main {
     line-height: 1.5;
 }
 
-/* Style the course descriptions */
 #levels p {
     font-size: 130%;
     line-height: 1.5;
@@ -414,7 +414,7 @@ main {
     color: #00273D;
 }
 
-/*enroll page*/
+/* Style enroll page*/
 #enroll-page
 {
     background-image: url("../images/background-enroll.webp");
@@ -422,7 +422,6 @@ main {
     background-size: cover;
     position: relative;
 }
-
 
 #enroll
 {
@@ -440,7 +439,6 @@ main {
     font-size: 180%;
     padding-bottom: 20px;
 }
-
 
 /* Style form labels and input fields */
 label {
@@ -490,7 +488,7 @@ input[type="submit"]
     font-family: 'Cormorant Garamond', serif;
 }
 
-/*style for button*/
+/*style for button on about us page and courses page*/
 .enroll-button {
     background-color: #00273D;
     color: #ffffff;
@@ -685,9 +683,6 @@ footer {
       font-size: 150%;
       margin-right: 20px;
   }
-
-
-
 }
 
 /*Media query:768px and up*/
@@ -736,7 +731,6 @@ footer {
     #logo {
         font-size: 180%;
     }
-    
 }
 
 /* Responsive styles for screens 992px and down */
